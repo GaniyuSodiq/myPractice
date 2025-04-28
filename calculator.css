@@ -1,0 +1,108 @@
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      interpolate-size: allow-keywords;
+    }
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#container {
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#inputBox{
+    width: 99%;
+    height: 50px;
+    /* border: none; */
+    text-align: right;
+    font-size: 150%;
+    padding: 0;
+}
+
+.col {
+    width: 70px;
+    height: 50px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+.col:hover {
+    background-color: aliceblue;
+}
+
+.col:active {
+    background-color: antiquewhite;
+}
+
+#equals{
+    background-color: midnightblue;
+    color: white;
+}
+
+#equals:hover{
+    background-color: rgb(18, 18, 80);
+}

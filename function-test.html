@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Test</title>
+</head>
+<body>
+    
+    <script>
+        function add7(a) {
+            return a + 7;
+        }
+
+        let multiply = (a = 3, b = 2) => a * b;
+
+        let lastLetter = (text) => text.slice(-1);
+
+        function capitalize(text) {
+           return String(text).charAt(0).toUpperCase() + String(text).slice(1);
+            // return String(text).charAt(0).toUpperCase() + String(text).slice(1);
+
+            // return String(text)[0].toUpperCase() + String(text).subsctring(1);
+            
+        }
+        
+
+        add7(7);
+        multiply();
+        lastLetter("humble");
+        capitalize("adio");
+        
+    </script>
+</body>
+</html>
