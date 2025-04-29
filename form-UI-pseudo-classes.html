@@ -5,13 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM UI PSEUDO CLASSES</title>
     <style>
-        input:required {
+        /* input:required {
             border: 2px solid;
         }
 
         input:optional {
             border: 2px dashed;
+        } */
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 20px auto;
+            max-width: 460px;
         }
+
+        fieldset {
+            padding: 10px 30px 0;
+        }
+
+        legend {
+            color: white;
+            background: black;
+            padding: 5px 10px;
+        }
+
+        button, label, input {
+            display: block;
+            font-family: inherit;
+            font-size: 100%;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 5px;
+            height: 30px;
+        }
+        fieldset > div {
+            margin-bottom: 20px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        input + span {
+            position: relative;
+        }
+
+            input:required + span::after {
+            font-size: 0.7rem;
+            position: absolute;
+            content: "required";
+            color: white;
+            background-color: black;
+            padding: 5px 10px;
+            top: -26px;
+            left: -70px;
+        }
+
 
     </style>
 </head>
