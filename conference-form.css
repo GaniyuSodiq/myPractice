@@ -127,6 +127,28 @@ form{
     margin-bottom: 0px;
 }
 
+.form-row button{
+    font-size: 1rem;
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #5995dc;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: #67aeed;
+}
+
+.form-row button:active {
+    background-color: #407fc7;
+}
+
 @media only screen and (min-width: 700px) {
     .speaker-form-header,
     .speaker-form {
@@ -175,5 +197,9 @@ form{
     .form-row .checkbox-label{
         margin-left: 120px;
         width: auto;
+    }
+
+    .form-row button {
+        margin-left: 120px;
     }
 }
