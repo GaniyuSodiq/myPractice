@@ -97,6 +97,13 @@ form{
     float: left;
 }
 
+.form-row select{
+    width: 100%;
+    padding: 5px;
+    font-size: .9rem;
+    appearance: none;
+}
+
 @media only screen and (min-width: 700px) {
     .speaker-form-header,
     .speaker-form {
