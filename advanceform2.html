@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styling Controls Based on Validity</title>
+    <link rel="stylesheet" href="advanceform2.css">
 </head>
 <body>
     <form action="" method="post">
@@ -17,12 +18,13 @@
             </div>
             <div>
                 <label for="lname">Last name: </label>
-                <input type="text" id="lname" name="lname">
+                <input type="text" id="lname" name="lname" required>
                 <span></span>
             </div>
             <div>
                 <label for="email">Email address (include if you want a response): </label>
                 <input type="email" id="email" name="email">
+                <span></span>
             </div>
             <div><button>Submit</button></div>
         </fieldset>
