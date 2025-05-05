@@ -1,8 +1,8 @@
 .grid-items{
     background-color: yellowgreen;
     border: 1px solid salmon;
-    width: 200px;
-    height: 50px;
+    /* width: 200px; */
+    /* height: 50px; */
     text-align: center;
     font-size: 2rem;
     font-weight: bolder;
@@ -11,4 +11,7 @@
 .grid-container{
     display: grid;
     gap: 20px;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 200px 400px;
+
 }
