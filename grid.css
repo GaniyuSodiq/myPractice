@@ -1,0 +1,10 @@
+.grid-container{
+    display: grid;
+}
+
+.grid-items{
+    background-color: yellowgreen;
+    border: 1px solid salmon;
+    width: 200px;
+    height: 50px;
+}
