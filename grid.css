@@ -19,7 +19,7 @@
                          "one one one one two two two two"
                          "three three three three four four four four"
                          "three three three three four four four four";
-    align-items: start;
+    /* align-items: start; */
     /* width: 500px; */
     /* flex-direction: row;
     justify-content: flex-start; */
@@ -78,6 +78,7 @@
 
 .two {
     grid-area: two;
+    align-self: start;
     /* align-self: flex-start; */
     /* grid-area: 1 / 3 / 3 / 4; */
     /* grid-column: 3;
@@ -93,6 +94,7 @@
 
 .three{
     grid-area: three;
+    align-self: end;
     /* grid-area: 1 / 2 / 2 / 3; */
     /* grid-column: 2;
     grid-row: 1; */
@@ -100,6 +102,7 @@
 
 .four {
     grid-area: four;
+    align-self: center;
     /* grid-area: 3 / 2 / 4 / 4; */
     /* grid-column: 2 / 4;
     grid-row: 3; */
