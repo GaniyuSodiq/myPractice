@@ -78,7 +78,7 @@
 
 .two {
     grid-area: two;
-    align-self: start;
+    justify-self: start;
     /* align-self: flex-start; */
     /* grid-area: 1 / 3 / 3 / 4; */
     /* grid-column: 3;
@@ -94,7 +94,7 @@
 
 .three{
     grid-area: three;
-    align-self: end;
+    justify-self: end;
     /* grid-area: 1 / 2 / 2 / 3; */
     /* grid-column: 2;
     grid-row: 1; */
@@ -102,7 +102,7 @@
 
 .four {
     grid-area: four;
-    align-self: center;
+    justify-self: center;
     /* grid-area: 3 / 2 / 4 / 4; */
     /* grid-column: 2 / 4;
     grid-row: 3; */
